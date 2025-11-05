@@ -264,7 +264,7 @@ def app():
                                      'x':'Total Wins'
                                  },
                                  color=teams_total_toss_win.index,
-                                 color_discrete_sequence=px.colors.qualitative.Safe
+                                 color_discrete_sequence=px.colors.qualitative.Safe)
                     fig.update_layout(
                         height=700,
                         width=900,
@@ -272,7 +272,7 @@ def app():
                     st.plotly_chart(fig,
                                     transparent=True,
                                     use_container_width=True)
-            ''',
+                    ''',
                 language='python'
             )
 
@@ -309,7 +309,7 @@ def app():
 
                     fig = px.bar(x=teams_toss_win_count.index,
                                  y=teams_toss_win_count.values,
-                                 title='Toss Winners'
+                                 title='Toss Winners',
                                  color=teams_toss_win_count.index,
                                  color_discrete_sequence=px.colors.qualitative.Safe)
 
@@ -588,14 +588,7 @@ def app():
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
 
-        for p in ax.patches:
-            ax.annotate(
-                format(p.get_height(), '.1f'),
-                (p.get_x() + p.get_width() / 2., p.get_height()),
-                ha='center', va='center',
-                xytext=(0, 10),
-                textcoords='offset points'
-            )
+        # Note: seaborn barplot doesn't support bar_label directly
 
         st.pyplot(fig, transparent=True)
 
