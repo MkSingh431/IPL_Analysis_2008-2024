@@ -102,7 +102,7 @@ def app():
 
             <br><br>
             ### Motilal Das
-            <a href="https://www.linkedin.com/in/motilal-das-42b4a9254" target="_blank"><strong>Motilal Das LinkedIn</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/motilal-das-42b4a9254" target="_blank"><strong>LinkedIn</strong></a> &nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="mailto:mks465261@gmail.com" target="_blank"><strong>Email</strong></a>
     
             </div>
