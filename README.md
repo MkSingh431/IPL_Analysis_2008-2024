@@ -113,13 +113,13 @@ Feel free to contribute to this project by forking the repository and submitting
 ## Project Overview
 
 ### Home Page:
-![alt text](/Projects/ipl-analytics-main/Images/IPL_ANALYSIS_OVERVIEW.png)
+![alt text](Images/IPL_ANALYSIS_OVERVIEW.png)
 ### Navigation Bar:
-![alt text](/Projects/ipl-analytics-main/Images/NavBar.png)
+![alt text](Images/NavBar.png)
 
 <!-- <img title="repo views" src="https://repoviews.netlify.app/.netlify/functions/repoViews?file=app.py"> -->
 
-![Divider Line](/Projects/ipl-analytics-main/Images/divider.png)
+![Divider Line](Images/divider.png)
 
 ---
 
