@@ -222,8 +222,8 @@ def app():
                     temp['inning'] < 3
                 ]
 
-                runs = temp[temp.batting_team == t1]['total_runs',
-                                                     'season', 'match_id', 'inning']
+                runs = temp[temp.batting_team == t1][['total_runs',
+                                                     'season', 'match_id', 'inning']]
 
                 runs_avg = runs.groupby(by='season').mean().reset_index()
 
@@ -315,7 +315,7 @@ def app():
 
                 legend = plt.legend()
                 frame = legend.get_frame()
-                frame.set_facecolor('black')
+                frame.set_facecolor('white')
 
                 plt.title(
                     f'{t1} vs {t2} : Match Win Based On City',
